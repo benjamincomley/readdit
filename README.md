@@ -1,24 +1,7 @@
-# README
+Issues
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+1. When destroying a comment, receive the following error
 
-Things you may want to cover:
+      undefined method 'each' for nil:NilClass
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+but comment is successfully destroyed.
