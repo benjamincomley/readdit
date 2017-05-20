@@ -1,7 +1,7 @@
-Issues
+**ISSUES**
 
 1. When destroying a comment, receive the following error
 
-      undefined method 'each' for nil:NilClass
+      *undefined method 'each' for nil:NilClass*
 
 but comment is successfully destroyed.
